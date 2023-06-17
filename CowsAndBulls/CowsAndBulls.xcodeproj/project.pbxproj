@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDE41172A1A784B00759017 /* CowsAndBullsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE41162A1A784B00759017 /* CowsAndBullsApp.swift */; };
+		FFDE41192A1A784B00759017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE41182A1A784B00759017 /* ContentView.swift */; };
+		FFDE411B2A1A784F00759017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDE411A2A1A784F00759017 /* Assets.xcassets */; };
+		FFDE411E2A1A784F00759017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDE411D2A1A784F00759017 /* Preview Assets.xcassets */; };
+		FFDE41262A1AC63300759017 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE41252A1AC63300759017 /* SettingsView.swift */; };
+		FFDE41282A1ACEA500759017 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FFDE41272A1ACEA500759017 /* Credits.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFDE41132A1A784B00759017 /* CowsAndBulls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CowsAndBulls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDE41162A1A784B00759017 /* CowsAndBullsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBullsApp.swift; sourceTree = "<group>"; };
+		FFDE41182A1A784B00759017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFDE411A2A1A784F00759017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDE411D2A1A784F00759017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFDE411F2A1A784F00759017 /* CowsAndBulls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CowsAndBulls.entitlements; sourceTree = "<group>"; };
+		FFDE41252A1AC63300759017 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FFDE41272A1ACEA500759017 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDE41102A1A784B00759017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDE410A2A1A784B00759017 = {
+			isa = PBXGroup;
+			children = (
+				FFDE41152A1A784B00759017 /* CowsAndBulls */,
+				FFDE41142A1A784B00759017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDE41142A1A784B00759017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE41132A1A784B00759017 /* CowsAndBulls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDE41152A1A784B00759017 /* CowsAndBulls */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE41162A1A784B00759017 /* CowsAndBullsApp.swift */,
+				FFDE41252A1AC63300759017 /* SettingsView.swift */,
+				FFDE41182A1A784B00759017 /* ContentView.swift */,
+				FFDE41272A1ACEA500759017 /* Credits.rtf */,
+				FFDE411A2A1A784F00759017 /* Assets.xcassets */,
+				FFDE411F2A1A784F00759017 /* CowsAndBulls.entitlements */,
+				FFDE411C2A1A784F00759017 /* Preview Content */,
+			);
+			path = CowsAndBulls;
+			sourceTree = "<group>";
+		};
+		FFDE411C2A1A784F00759017 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE411D2A1A784F00759017 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDE41122A1A784B00759017 /* CowsAndBulls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDE41222A1A784F00759017 /* Build configuration list for PBXNativeTarget "CowsAndBulls" */;
+			buildPhases = (
+				FFDE410F2A1A784B00759017 /* Sources */,
+				FFDE41102A1A784B00759017 /* Frameworks */,
+				FFDE41112A1A784B00759017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CowsAndBulls;
+			productName = CowsAndBulls;
+			productReference = FFDE41132A1A784B00759017 /* CowsAndBulls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDE410B2A1A784B00759017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FFDE41122A1A784B00759017 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FFDE410E2A1A784B00759017 /* Build configuration list for PBXProject "CowsAndBulls" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDE410A2A1A784B00759017;
+			productRefGroup = FFDE41142A1A784B00759017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDE41122A1A784B00759017 /* CowsAndBulls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDE41112A1A784B00759017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE411E2A1A784F00759017 /* Preview Assets.xcassets in Resources */,
+				FFDE41282A1ACEA500759017 /* Credits.rtf in Resources */,
+				FFDE411B2A1A784F00759017 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDE410F2A1A784B00759017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE41262A1AC63300759017 /* SettingsView.swift in Sources */,
+				FFDE41192A1A784B00759017 /* ContentView.swift in Sources */,
+				FFDE41172A1A784B00759017 /* CowsAndBullsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFDE41202A1A784F00759017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFDE41212A1A784F00759017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FFDE41232A1A784F00759017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CowsAndBulls/CowsAndBulls.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CowsAndBulls/Preview Content\"";
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbrychczynski.CowsAndBulls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FFDE41242A1A784F00759017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CowsAndBulls/CowsAndBulls.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CowsAndBulls/Preview Content\"";
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbrychczynski.CowsAndBulls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDE410E2A1A784B00759017 /* Build configuration list for PBXProject "CowsAndBulls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE41202A1A784F00759017 /* Debug */,
+				FFDE41212A1A784F00759017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDE41222A1A784F00759017 /* Build configuration list for PBXNativeTarget "CowsAndBulls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE41232A1A784F00759017 /* Debug */,
+				FFDE41242A1A784F00759017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDE410B2A1A784B00759017 /* Project object */;
+}
